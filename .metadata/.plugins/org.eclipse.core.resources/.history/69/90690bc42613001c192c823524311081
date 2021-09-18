@@ -1,0 +1,14 @@
+package com.cmc.evaluacion.servicios;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Juego {
+
+	private Naipe naipe;
+	private HashMap<String, ArrayList<Carta>> cartarJugador;
+	
+	
+	
+	
+}

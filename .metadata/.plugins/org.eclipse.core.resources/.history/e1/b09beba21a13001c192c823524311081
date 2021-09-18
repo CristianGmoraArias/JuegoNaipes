@@ -1,0 +1,33 @@
+package com.cmc.evaluacion.entidades;
+
+public class Numero {
+private String NumeroCarta;
+private int valor;
+public String getNumeroCarta() {
+	return NumeroCarta;
+}
+public void setNumeroCarta(String numeroCarta) {
+	NumeroCarta = numeroCarta;
+}
+public int getValor() {
+	return valor;
+}
+public void setValor(int valor) {
+	this.valor = valor;
+}
+public Numero(String numeroCarta, int valor) {
+	//super();
+	NumeroCarta = numeroCarta;
+	this.valor = valor;
+}
+@Override
+public String toString() {
+	return   NumeroCarta + "-" + valor;
+}
+
+
+
+
+
+
+}

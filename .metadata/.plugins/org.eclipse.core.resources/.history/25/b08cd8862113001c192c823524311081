@@ -1,0 +1,17 @@
+package com.cmc.evaluacion.entidades;
+
+public class Random {
+
+	public static int obtenerPosicion(){
+		double numeroRandom=Math.random()*51;
+		
+		return (int)numeroRandom;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

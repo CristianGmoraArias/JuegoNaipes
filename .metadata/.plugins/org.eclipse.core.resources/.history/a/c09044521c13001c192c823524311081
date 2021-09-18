@@ -1,0 +1,26 @@
+package com.cmc.evaluacion.entidades;
+
+import java.util.ArrayList;
+
+public class Naipe {
+private ArrayList<Numero> numerosPosibles;
+private ArrayList<Carta> cartas;
+
+
+
+public ArrayList<Carta> getCartas() {
+	return cartas;
+}
+
+	public Naipe(){
+		
+		Numero agregar= New Numero();
+		numerosPosibles.add()
+		
+		
+		
+	}
+	
+	
+	
+}
